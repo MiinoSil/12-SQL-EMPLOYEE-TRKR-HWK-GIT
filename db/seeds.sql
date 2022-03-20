@@ -12,31 +12,31 @@ INSERT INTO department (name)
 VALUES ("Legal");
 INSERT INTO department (name)
 VALUES ("Human Resources");
-INSERT INTO department (name)
+INSERT INTO departmente (name)
 VALUES ("Executive");
 
 -- Insert roles into db.
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Sales Lead", 100000, 1);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Sales Clerk", 40000, 1);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Engineer Lead", 200000, 2);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Software Engineer", 100000, 2);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Head Accountant", 150000, 3);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Accountant", 125000, 3);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Head Legal Consultant", 200000, 4);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Legal Consultant", 150000, 4);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("HR Manager", 125000, 5);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("HR Clerk", 50000, 5);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("CEO", 500000, 6);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
